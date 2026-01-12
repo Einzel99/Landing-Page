@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  max-width: 1485px;
+  height: 96px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}

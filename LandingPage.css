@@ -304,6 +304,7 @@ figure{
 
 .contact-cards {
     display: flex;
+    align-items: baseline;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;

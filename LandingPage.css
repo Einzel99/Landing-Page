@@ -135,7 +135,7 @@ figure{
     margin-bottom: 40px;
     text-align: center;
 }
-details {
+.catalogo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
@@ -165,12 +165,12 @@ details {
     line-height: 16px;
     color: #B48EF0B2; 
 }
-details img {
+.catalogo img {
     width: 45px;
     height: 36px;
     margin-bottom: 20px;
 }
-details p {
+.catalogo p {
     height: 38px;
     font-size: 16px;
     font-weight: 300;

@@ -141,7 +141,7 @@ figure{
     gap: 25px;
     margin-top: 20px;
 }
-.card {
+#Habilidades .card {
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -155,7 +155,7 @@ figure{
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.card:hover{
+#Habilidades .card:hover{
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
@@ -276,4 +276,81 @@ figure{
 }
 .infos{
     padding: 20px;
+}
+#Contato {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background: linear-gradient(to top, #FFFFFF , #F3E8FF);
+    padding-top: 60px;
+}
+#Contato h2 {
+    width: 792px;
+    height: 77;
+    font-size: 64px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Contato p {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.contact-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.contact-cards a{
+    text-decoration: none;
+    color: black;
+}
+#Contato .card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 400px; 
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+#Contato .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+#Contato .card .Logo{
+    font-size: 2rem;
+    color: #7B5CF0;
+    margin-bottom: 10px;
+}
+#Contato .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+#Contato .card p {
+    font-size: 0.9rem;
+    color: #6b6b80;
+}
+footer {
+    width: 100%;
+    max-width: 1485px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0 auto;
 }

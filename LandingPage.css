@@ -178,3 +178,102 @@ figure{
     color: #6B7280;
     margin-top: 10px;
 }
+#Servicos {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background: linear-gradient(to bottom, #FFFFFF , #F3E8FF);
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+#Servicos h2 {
+    width: 792px;
+    height: 77;
+    font-size: 64px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px 20px; 
+    overflow-x: auto;
+    list-style: none;
+    scroll-behavior: smooth;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.projeto {
+    flex: 0 0 380px; 
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.projeto img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.projeto h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+}
+.projeto p {
+    font-size: 16px;
+    color: #6B7280;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+.Tecnologias {
+  display: flex;
+  gap: 16px;
+  align-items: center; 
+  justify-content: flex-start;
+  margin-top: 16px;
+}
+.Tecnologias p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: bold;
+  flex: 0 0 auto;
+  display: inline-block;
+}
+.projeto .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+}
+.projeto .buttons a {
+    text-align: center;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: white;
+    background-color: #6c4df5;
+    transition: background-color 0.3s ease;
+}
+.projeto .buttons a:hover {
+    background-color: #5433c3;
+}
+.infos{
+    padding: 20px;
+}
